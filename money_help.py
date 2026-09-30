@@ -62,8 +62,8 @@ elif st.session_state.step == 2:
     col1, col2, col3 = st.columns([7, 1, 1])
     with col1:
         st.header(f"Welcome, {st.session_state.name}!")
-    with col3:
-        st.image("mon.png")
+    #with col3:
+        #st.image("mon.png")
 
     st.subheader("Let's set your finance goals.")
 
