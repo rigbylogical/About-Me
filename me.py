@@ -17,7 +17,7 @@ with st.container():
              ''')
     st.write("######")
     yt_logo,yt_play = st.columns([1,2])
-    #with yt_logo:
+    with yt_logo:
         st.image('logo_1.png')
     with yt_play:
         st.markdown("[Old Youtube Channel >](https://www.youtube.com/@rigbylogical4001)")
