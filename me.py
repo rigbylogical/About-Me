@@ -18,7 +18,7 @@ with st.container():
     st.write("######")
     yt_logo,yt_play = st.columns([1,2])
     #with yt_logo:
-        #st.image('logo_1.png')
+        st.image('logo_1.png')
     with yt_play:
         st.markdown("[Old Youtube Channel >](https://www.youtube.com/@rigbylogical4001)")
 
@@ -29,7 +29,7 @@ with st.container():
     st.write("##")
     project_1, link_1 = st.columns([1,2])
     #with project_1:
-        #st.image('bake.jpg')
+        st.image('bake.jpg')
     with link_1:
         st.subheader("[Twins Bakery](https://docs.google.com/spreadsheets/d/18QYe7zuLVc8OnVlYs3gujsGPDO1dowxtZp_UEYWXA2w/edit?gid=520005004#gid=520005004)")
         st.write('''
@@ -51,7 +51,7 @@ with st.container():
             """,
             unsafe_allow_html=True
         )
-        #st.image('lo.png')
+        st.image('lo.png')
     with link_2:
         st.subheader('[Job Project](https://docs.google.com/spreadsheets/d/1lVtkfZD4ZUbOR4_-7ktqx2rHy36nELPkhNyLZGlcFFw/edit?gid=0#gid=0)')
         st.write('''
