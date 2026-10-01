@@ -28,7 +28,7 @@ with st.container():
     st.subheader("Here are some of projects I have made!!")
     st.write("##")
     project_1, link_1 = st.columns([1,2])
-    #with project_1:
+    with project_1:
         st.image('bake.jpg')
     with link_1:
         st.subheader("[Twins Bakery](https://docs.google.com/spreadsheets/d/18QYe7zuLVc8OnVlYs3gujsGPDO1dowxtZp_UEYWXA2w/edit?gid=520005004#gid=520005004)")
